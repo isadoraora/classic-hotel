@@ -1,10 +1,10 @@
-package com.clasichotel;
+package com.classichotel;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClasicHotelApplicationTests {
+class ClassicHotelApplicationTests {
 
 	@Test
 	void contextLoads() {

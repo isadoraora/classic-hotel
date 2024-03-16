@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  classic-hotel-api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    networks:
+      - classic-hotel-network
+
+networks:
+  classic-hotel-network:
+    driver: bridge
